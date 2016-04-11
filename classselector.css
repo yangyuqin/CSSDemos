@@ -1,0 +1,11 @@
+.center{
+	text-align:center
+}
+.fancy td{
+	color:#f60;
+	background:#666;
+}
+td.fancy {
+	color: #f60;
+	background: #666;
+}

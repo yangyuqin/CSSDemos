@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <style type="text/css">
+	p.n1 {white-space:normal;}
+	p.n2 {white-space: pre;}
+	p.n3 {white-space: nowrap}
+	p.n4 {white-space: pre-wrap;}
+	p.n5 {white-space: pre-line;}
+  
+  </style>
+  <title>Document</title>
+ </head>
+ <body>                  
+  <p class="n1">注                          释：当     white-space      属性设置为      normal                        时，会合并所有                的     空白符，  
+  并忽略     换行符。</p>
+  <p class="n2">注                             释 ：    当    white-space                         属性设置为                        pre    时，浏览器    
+  不会合并空白符，也    不会忽略     换行符。</p>
+  <p class="n3">
+	这是一些文本。
+	这是一些文本。
+	这是一些文本。
+	这是一些文本。
+	这是一些文本。
+	这是一些文本。
+	这是一些文本。
+	这是一些文本。<br />
+	这是一些文本。
+	这是一些文本。
+	这是一些文本。
+	这是一些文本。
+</p class="n4">
+	<p>注         释                ：当     white-space                       属性设置为           pre-wrap   
+	时，浏览器不仅会                       保留空白                          
+	符并保留                     
+	换行符，还   允许自  
+	动换行。</p>
+<p class="n5">注    释：当  
+w hite-space 属性设置为     pre-line  
+时，浏览                      器会保留换行符，并   允许自  动换行，但                          是会合并                       空白符，这    
+是与 pre-wrap 值的   不同之处。</p>
+
+ </body>
+</html>
